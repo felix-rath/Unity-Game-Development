@@ -58,3 +58,12 @@ Enthaltene Funktionen:
 - verschiedene Stats und Attribute
 - Unterstützung für unterschiedliche Schadensmechaniken
 - Erweiterbarkeit für neue Systeme
+
+## Save System
+
+Ein System zur Speicherung und Verwaltung von Spieldaten.
+
+Enthaltene Funktionen:
+- eigene Datenklassen zur Strukturierung von Informationen
+- Speichern und Abrufen von Spieldaten
+- erweiterbare Struktur für weitere Daten
