@@ -1,18 +1,18 @@
-# Unity Game Development Portfolio
+# Unity Game Project
 
-Dieses Repository enthält Ausschnitte meines eigenen Game-Projekts, an dem ich in meiner Freizeit arbeite.
+Dieses Repository enthält Ausschnitte meines aktuellen Unity-Spielprojekts, das ich in meiner Freizeit mit C# entwickle.
 
 ## Über das Projekt
 
-Ich beschäftige mich seit mehreren Jahren mit Programmierung und Softwareentwicklung. Mein Schwerpunkt liegt auf der Entwicklung eigener Projekte mit Unity und C#.
+Bei dem Projekt handelt es sich um ein Roguelike-RPG, bei dem der Fokus auf modularen Spielsystemen und erweiterbaren Mechaniken liegt.
 
-Bei diesem Projekt entwickle ich ein eigenes Spiel und setze dabei verschiedene Spielmechaniken und Systeme selbstständig um.
+Ich entwickle verschiedene Systeme selbstständig, darunter Spielersteuerung, Fähigkeiten, Inventar, Schaden und Speicherung von Spieldaten.
 
-Das Projekt befindet sich aktuell in der Prototyping-Phase. Viele Systeme dienen dazu, Konzepte auszuprobieren, neue Mechaniken zu testen und die technische Grundlage für das Spiel weiterzuentwickeln. Dabei werden bestehende Systeme laufend erweitert und verbessert.
+Das Projekt befindet sich aktuell in der Prototyping-Phase. Der Schwerpunkt liegt auf dem Aufbau einer flexiblen Systemstruktur sowie dem Testen und Erweitern neuer Spielmechaniken.
 
 ## Technologien
 
-- C# (Unity Engine)
+- C#
 - Unity Engine
 - Objektorientierte Programmierung
 - ScriptableObjects
@@ -23,16 +23,16 @@ Das Projekt befindet sich aktuell in der Prototyping-Phase. Viele Systeme dienen
 
 Ein eigenes System zur Steuerung und Verwaltung des Spielers.
 
-Enthaltene Funktionen:
+Funktionen:
 - Spielerbewegung
 - Verarbeitung von Eingaben über das Unity Input System
-- Event-basierte Kommunikation zwischen Systemen
+- Kommunikation zwischen verschiedenen Systemen über Events
 
 ## Ability System
 
-Ein modulares Fähigkeitensystem für das Spiel.
+Ein modulares Fähigkeitensystem zur Verwaltung verschiedener Fähigkeiten.
 
-Enthaltene Funktionen:
+Funktionen:
 - ScriptableObject-basierte Fähigkeiten
 - verschiedene Ability-Typen
 - Cast-System
@@ -44,7 +44,7 @@ Enthaltene Funktionen:
 
 Ein System zur Verwaltung von Fähigkeiten und Ability-Slots.
 
-Enthaltene Funktionen:
+Funktionen:
 - Verwaltung verschiedener Ability-Slots
 - Trennung von Daten und Logik
 - Erweiterbare Struktur für neue Inhalte
@@ -53,17 +53,21 @@ Enthaltene Funktionen:
 
 Ein System zur Berechnung und Verarbeitung von Schaden.
 
-Enthaltene Funktionen:
+Funktionen:
 - Schadensberechnung
-- verschiedene Stats und Attribute
-- Unterstützung für unterschiedliche Schadensmechaniken
+- Verwaltung verschiedener Stats und Attribute
+- Unterstützung unterschiedlicher Schadensmechaniken
 - Erweiterbarkeit für neue Systeme
 
 ## Save System
 
 Ein System zur Speicherung und Verwaltung von Spieldaten.
 
-Enthaltene Funktionen:
-- eigene Datenklassen zur Strukturierung von Informationen
-- Speichern und Abrufen von Spieldaten
-- erweiterbare Struktur für weitere Daten
+Funktionen:
+- Eigene Datenklassen zur Strukturierung von Informationen
+- Speichern und Laden von Spieldaten
+- Erweiterbare Struktur für weitere Daten
+
+## Projektstatus
+
+Das Projekt befindet sich derzeit in Entwicklung. Neue Systeme werden regelmäßig hinzugefügt und bestehende Funktionen weiter verbessert.
